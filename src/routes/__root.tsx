@@ -81,6 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Portfolio of Amit Yadav, Full Stack Developer & AI / ML Engineer." },
       { name: "author", content: "Amit Yadav" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Amit Yadav — Portfolio" },
+      { name: "twitter:title", content: "Amit Yadav — Portfolio" },
+      { property: "og:description", content: "Portfolio of Amit Yadav, Full Stack Developer & AI / ML Engineer." },
+      { name: "twitter:description", content: "Portfolio of Amit Yadav, Full Stack Developer & AI / ML Engineer." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/04396079-6eb1-4754-922c-aedc5dff81f3/id-preview-23be47a1--4c7d93f3-abbb-4076-b72e-7456df4259a0.lovable.app-1781844707592.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/04396079-6eb1-4754-922c-aedc5dff81f3/id-preview-23be47a1--4c7d93f3-abbb-4076-b72e-7456df4259a0.lovable.app-1781844707592.png" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
